@@ -1,60 +1,8 @@
-# p5.js Template
+## Summary
+This code is using for() loops and Random() to draw hundreds of points connect with lines.
 
-This is a README file that can be used to describe and document your assignment.
+## Plan
+I used Random() to create a lot of points, since lines also need the point position, I matched them in pairs. After defining the point in Random(), I used the same xy-coordinate to define the line.
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
-
----
----
-
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+## Hard & Fun
+It is hard to think how to connect all the points, but it is easier to connect two points together to create a line. I think the change of thinking is interesting during the working process.
